@@ -14,7 +14,8 @@ Bold: 700
 - Line heights:
 Default: 1
 Small: 1.05
-Medium: 1.02
+Medium: 1.2
+Large: 1.8
 Paragraph default: 1.6
 
 - Letter spacing
@@ -70,6 +71,18 @@ html {
   /* Percentage of user's browser font-size setting */
 
   font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely 
+  positioned in relation to body*/
+  overflow-x: hidden;
 }
 
 /* *******************************/
@@ -237,6 +250,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-item {
