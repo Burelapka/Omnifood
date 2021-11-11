@@ -72,6 +72,9 @@ html {
 
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does Not work in Safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -124,9 +127,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols {
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
   align-items: center;
